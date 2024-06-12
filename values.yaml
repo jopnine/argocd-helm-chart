@@ -166,7 +166,7 @@ serviceMonitor:
 
   # -- Namespace where the ServiceMonitor resource should be created, default is
   # the same as the release namespace
-  namespace: ~
+  namespace: lab-app
   # -- Additional labels to add to the ServiceMonitor
   additionalLabels: {}
   # -- Additional annotations to add to the ServiceMonitor
