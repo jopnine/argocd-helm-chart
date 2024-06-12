@@ -114,7 +114,7 @@ livenessProbe:
 
 readinessProbe:
   enabled: true
-  initialDelaySeconds: 10
+  initialDelaySeconds: 12
 
 volume:
   enabled: true
