@@ -8,7 +8,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.23.11-debian"
 
-imagePullSecrets: []
+imagePullSecrets: 
+  - name: dockerhub-secret
 nameOverride: ""
 fullnameOverride: ""
 
